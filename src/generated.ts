@@ -119,6 +119,7 @@ export const airdropABI = [
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x22d34C032b447AC9621705c6B4C6BD1B4b0130eb)
  * - [__View Contract on Polygon Mumbai Polygon Scan__](https://mumbai.polygonscan.com/address/0x22d34C032b447AC9621705c6B4C6BD1B4b0130eb)
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io//address/0x2c952eE289BbDB3aEbA329a4c41AE4C836bcc231)
+ * * - [__View Contract on Arbitrum sepolia Arbiscan__](https://sepolia.arbiscan.io//address/0x18f9988d5451d36d60d0a1270b6cd8850e84c34e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x2c952eE289BbDB3aEbA329a4c41AE4C836bcc231)
  */
 export const airdropAddress = {
@@ -131,6 +132,7 @@ export const airdropAddress = {
   43114: '0x22d34C032b447AC9621705c6B4C6BD1B4b0130eb',
   80001: '0x22d34C032b447AC9621705c6B4C6BD1B4b0130eb',
   421613: '0x2c952eE289BbDB3aEbA329a4c41AE4C836bcc231',
+  431614: '0x18f9988d5451d36d60d0a1270b6cd8850e84c34e',
   11155111: '0x2c952eE289BbDB3aEbA329a4c41AE4C836bcc231',
 } as const;
 
@@ -144,6 +146,7 @@ export const airdropAddress = {
  * - [__View Contract on Avalanche Snow Trace__](https://snowtrace.io/address/0x22d34C032b447AC9621705c6B4C6BD1B4b0130eb)
  * - [__View Contract on Polygon Mumbai Polygon Scan__](https://mumbai.polygonscan.com/address/0x22d34C032b447AC9621705c6B4C6BD1B4b0130eb)
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io//address/0x2c952eE289BbDB3aEbA329a4c41AE4C836bcc231)
+ * * - [__View Contract on Arbitrum Sepolia Arbiscan__](https://sepolia.arbiscan.io//address/0x18f9988d5451d36d60d0a1270b6cd8850e84c34e)
  * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x2c952eE289BbDB3aEbA329a4c41AE4C836bcc231)
  */
 export const airdropConfig = { address: airdropAddress, abi: airdropABI } as const;
